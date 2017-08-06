@@ -237,6 +237,13 @@ html,body{
     }    
     
 }
+@media screen and (max-width: 768px){
+     .l-badge img{
+        height: auto;
+        width: 100%;
+    }   
+    
+}
 @media screen and (max-width: 1035px){
     #l-headerimg-1,
     #l-headerimg-3{

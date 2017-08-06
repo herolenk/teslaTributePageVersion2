@@ -213,9 +213,12 @@ html,body{
         height: 300px;
         width: 300px;
         display: block;
-        border: 2px solid green;
+        border: 6px solid rgb(52, 126, 136);
         margin: 5% auto;
     }
+.l-img img:hover{
+        border: 9px solid rgb(52, 126, 136);
+}
 /*
   ===============
   Media

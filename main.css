@@ -1,0 +1,262 @@
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+*{
+    box-sizing:border-box;
+    
+}
+html,body{
+    padding:0;
+    margin:0;
+
+}
+
+/*
+  ===============
+  Header
+  ===============
+*/   
+    .l-head{
+        background: #BE93C5;
+        background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
+        background: linear-gradient(to right, #7BC6CC, #BE93C5);
+        padding-bottom: 5%;
+        border-bottom: 10px solid rgba(0,0,0,0.8);
+    }
+    
+    .l-headerimg{
+        height: auto;
+        width: 100%;
+        border-radius: 1rem;
+        display: block;
+        margin-top: 10%;
+    }
+    #l-headerimg-1,
+    #l-headerimg-3{
+        margin:5% auto;
+    }
+
+    #l-head-btns{
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        bottom:0;
+        z-index: 10;
+    }
+    .l-headBtn{
+        padding: 20px 30px;
+        line-height: 50px;
+        background-color: black;
+        opacity: 0.8;
+        font-family: Lobster;
+        font-size: 3rem;
+    }
+
+
+    .l-headBtn:hover{
+        color:white;
+    }
+    .l-headBtn:active{
+        color:aquamarine;
+    }
+    .l-badge img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 2%;
+        margin-bottom: -4%;
+    }
+/*
+  ===============
+  İnventions
+  ===============
+*/  
+    .l-inv{
+        border-top: 10px solid rgba(0,0,0,0.9);
+        background-color: black;
+/*        background-image:url('https://image.ibb.co/eO5Sra/inventions.png');*/
+        background-image: url('assets/img/inventions.png');
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: -1300px;
+        text-align: center;
+        color: white; 
+        padding-bottom: 5%;
+        border-bottom: 10px solid #002F29;
+    }
+    .l-inv h2{
+        font-size: 7rem;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        font-family: Lobster;
+        letter-spacing: 3px;
+        font-variant: small-caps;
+    }
+    .l-inv-box{
+        border-radius: 2rem 12rem;
+    }
+    .l-left{
+        background: #780206;
+        background: -webkit-linear-gradient(to right, #061161, #780206);
+        background: linear-gradient(to right, #061161, #780206);
+        margin-right: 5%;
+        
+    }
+    .l-right{
+        background: #780206;
+        background: -webkit-linear-gradient(to left, #061161, #780206);
+        background: linear-gradient(to left, #061161, #780206);
+        margin-left: -2%;
+    }
+
+    .l-inv-box h3{
+        padding-top: 12%;
+        font-family: 'Indie Flower', cursive;
+        font-size: 4rem;
+    }
+    .l-inv-box p{
+        padding: 5% 10%;
+        text-indent: 5%;   
+    }
+    .l-inv-box img{
+        height: 200px;
+        margin-bottom: 5%;
+    }
+    #l-wire{
+        transform:rotate(-180deg);
+    }
+/*
+  ===============
+  Bio
+  ===============
+*/ 
+    .l-bio{
+        border-top: 10px solid #02231B;
+        border-bottom: 10px solid #002F29;
+/*        background-image: url('https://image.ibb.co/c821Ga/biomainback.jpg');*/
+        background-image: url('assets/img/biomainback.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        padding-bottom: 7%;
+    }
+    .l-bio img{
+        display: block;
+        margin: 5% auto;
+        height: auto;
+        width: 40%;
+    }
+    .l-bio h2{
+        color: white;
+        font-family: Lobster;
+        letter-spacing: 5px;
+        font-size: 7rem;
+        font-variant: small-caps;
+    }
+    .l-bio-box{
+
+/*        background-image: url('https://image.ibb.co/hzN7pv/bioboxback.jpg');*/
+        background-image: url('assets/img/bioboxback.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 2rem;
+        height: 600px;
+        padding-right: 20%;
+        padding-left: 20%;
+        
+    }
+    .l-bio h3{
+        font-family: 'Indie Flower', cursive;
+        color: aliceblue;
+        font-size: 4rem;
+        color: black;
+        padding-top: 15%;
+        padding-bottom: 20%;
+        font-variant: small-caps;
+    }
+    .l-bio p{
+        color:#5750b7;
+        font-family: monospace;
+        font-size:1.5rem;
+        padding-bottom: 10%;
+        line-height: 2rem;
+        vertical-align: middle;
+    }
+/*
+  ===============
+  İmg
+  ===============
+*/
+    .l-img{
+/*        background-image: url('https://image.ibb.co/hOv61a/518164_backgrounds.jpg');*/
+        background-image: url('assets/img/img-back.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-bottom: 5%;
+        border-top: 10px solid #A7DFFA;
+    }
+    .l-img h2{
+        text-align: center;
+        color: black;
+        font-family: Lobster;
+        font-variant: small-caps;
+        font-size: 7rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .l-img img{
+        height: 300px;
+        width: 300px;
+        display: block;
+        border: 2px solid green;
+        margin: 5% auto;
+    }
+/*
+  ===============
+  Media
+  ===============
+*/
+@media screen and (max-width: 480px){
+    .l-headBtn{
+        padding: 10px 10px;
+        opacity: 0.9;
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+    .l-headBtn{
+        padding: 15px 20px;
+        opacity: 0.9;
+        font-size: 2rem;
+    }    
+    
+}
+@media screen and (max-width: 1035px){
+    #l-headerimg-1,
+    #l-headerimg-3{
+        display: none;
+    }
+    .l-badge img{
+        margin-bottom: -8%;
+    }
+    .l-bio-box{
+        height: auto;
+    }
+    .l-bio h3{
+        padding-bottom: 10%;
+    }
+        
+}
+@media screen and (max-width: 995px){
+    .l-img img{
+        height: auto;
+        width: 80%;
+        margin: 5% auto;
+    }
+}
